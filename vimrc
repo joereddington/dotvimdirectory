@@ -52,8 +52,9 @@ noremap lnh 0f y$ :r !"/home/joe/git/historycode/history_list.sh" """
 
 " Map 'lnd' to list current titles of Firefox windows
 iabbrev lnn <C-R>=strftime('## %d/%m/%y %H:%M,')<C-M>
-nnoremap lnx :r !~/.vim/grab_delores.sh<CR>
 
+"If you are wondering lna and the related code are in the delores.vim plugin
+"in the plugin directory 
 
 
 
@@ -257,3 +258,10 @@ let g:vimtex_view_skim_activate = 1
 let g:vimtex_quickfix_ignore_filters = [
       \ 'Overfull \\hbox',
       \ ]
+
+
+
+" ## 16/01/26 22:16, I've started using ctrl-Z a lot more so I want to remove
+" the muscel memory for ZZ
+ nnoremap ZZ <Nop>
+
