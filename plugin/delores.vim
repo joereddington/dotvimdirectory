@@ -45,7 +45,7 @@ endfunction
 command! InsertFromFile call InsertFromFile(<f-args>)
 nnoremap lna f)"ayi)"byy:silent!InsertFromFile<CR>
 
-nnoremap <leader>1 r✅<Esc>:silent !afplay ~/.vim/sounds/S2_4E.wav  &<CR>:redraw!<CR>
+nnoremap <leader>1 r✓  <Esc>:silent !afplay ~/.vim/sounds/S2_4E.wav  &<CR>:redraw!<CR>
 nnoremap <leader>2 r⏳
 nnoremap <leader>3 r🚫
 nnoremap <leader>4 r📥

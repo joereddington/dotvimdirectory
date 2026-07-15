@@ -241,15 +241,12 @@ autocmd FileType tex setlocal makeprg=make
 
 let g:todo_done_filename = 'done.txt'
 
-"Yes I did this ✅  
+"Yes I did this ✓ 
 "I have put this in the stack to do later ⏳
 " I will NOT do this 🚫
 " I don't know about this one 📥
 
-nnoremap <leader>1 r✅ 
-nnoremap <leader>2 r⏳
-nnoremap <leader>3 r🚫
-nnoremap <leader>4 r📥
+nnoremap <leader>1 r✓
 "For skim 
 let g:vimtex_view_method = 'skim'
 let g:vimtex_view_skim_sync = 1

@@ -10,5 +10,4 @@ iabbr his their
 iabbr him them
 iabbr she they
 iabbr her their
-iabbr xtick ✅
-iabbr xcross ❌
+iabbr xtick ✓
